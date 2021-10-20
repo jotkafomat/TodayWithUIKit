@@ -60,6 +60,7 @@ extension ReminderDetailViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: Self.reminderDetailCellIdentifier, for: indexPath)
         let row = ReminderRow(rawValue: indexPath.row)
         cell.textLabel?.text = row?.displayText(for: reminder)
+        cell.imageView?.image = row?.cellImage
         return cell
     }
 }
