@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E10A3C4527202C00001D5BA4 /* ReminderListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A3C4427202C00001D5BA4 /* ReminderListDataSource.swift */; };
 		E1870861271D504A00F82D8D /* ReminderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1870860271D504A00F82D8D /* ReminderDetailViewController.swift */; };
 		E1CB6E8026F4AED70076EDD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CB6E7F26F4AED70076EDD1 /* AppDelegate.swift */; };
 		E1CB6E8226F4AED70076EDD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CB6E8126F4AED70076EDD1 /* SceneDelegate.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E10A3C4427202C00001D5BA4 /* ReminderListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListDataSource.swift; sourceTree = "<group>"; };
 		E1870860271D504A00F82D8D /* ReminderDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDetailViewController.swift; sourceTree = "<group>"; };
 		E1CB6E7C26F4AED70076EDD1 /* TodayWithUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodayWithUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1CB6E7F26F4AED70076EDD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				E1CB6E8A26F4AEDE0076EDD1 /* LaunchScreen.storyboard */,
 				E1CB6E8D26F4AEDE0076EDD1 /* Info.plist */,
 				E1870860271D504A00F82D8D /* ReminderDetailViewController.swift */,
+				E10A3C4427202C00001D5BA4 /* ReminderListDataSource.swift */,
 			);
 			path = TodayWithUIKit;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				E1870861271D504A00F82D8D /* ReminderDetailViewController.swift in Sources */,
 				E1CB6E8226F4AED70076EDD1 /* SceneDelegate.swift in Sources */,
 				E1CB6E9526F4B3C20076EDD1 /* Reminder.swift in Sources */,
+				E10A3C4527202C00001D5BA4 /* ReminderListDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
