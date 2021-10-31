@@ -21,6 +21,7 @@
 		E1DB95B7272EB3B3003FE77A /* EditTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DB95B6272EB3B3003FE77A /* EditTitleCell.swift */; };
 		E1DB95B9272EB47C003FE77A /* EditDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DB95B8272EB47C003FE77A /* EditDateCell.swift */; };
 		E1DB95BB272EB4B7003FE77A /* EditNotesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DB95BA272EB4B7003FE77A /* EditNotesCell.swift */; };
+		E1DB95BD272EBBDF003FE77A /* ReminderDetailEditDataSource.swift..swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DB95BC272EBBDF003FE77A /* ReminderDetailEditDataSource.swift..swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		E1DB95B6272EB3B3003FE77A /* EditTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTitleCell.swift; sourceTree = "<group>"; };
 		E1DB95B8272EB47C003FE77A /* EditDateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDateCell.swift; sourceTree = "<group>"; };
 		E1DB95BA272EB4B7003FE77A /* EditNotesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNotesCell.swift; sourceTree = "<group>"; };
+		E1DB95BC272EBBDF003FE77A /* ReminderDetailEditDataSource.swift..swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDetailEditDataSource.swift..swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				E1870860271D504A00F82D8D /* ReminderDetailViewController.swift */,
 				E10A3C4427202C00001D5BA4 /* ReminderListDataSource.swift */,
 				E1DB95B3272E9524003FE77A /*  ReminderDetailViewDataSource.swift */,
+				E1DB95BC272EBBDF003FE77A /* ReminderDetailEditDataSource.swift..swift */,
 			);
 			path = TodayWithUIKit;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				E1CB6E8426F4AED70076EDD1 /* ReminderListViewController.swift in Sources */,
 				E1CB6E9726F4C1B30076EDD1 /* ReminderListCell.swift in Sources */,
 				E1DB95B7272EB3B3003FE77A /* EditTitleCell.swift in Sources */,
+				E1DB95BD272EBBDF003FE77A /* ReminderDetailEditDataSource.swift..swift in Sources */,
 				E1CB6E8026F4AED70076EDD1 /* AppDelegate.swift in Sources */,
 				E1870861271D504A00F82D8D /* ReminderDetailViewController.swift in Sources */,
 				E1CB6E8226F4AED70076EDD1 /* SceneDelegate.swift in Sources */,
