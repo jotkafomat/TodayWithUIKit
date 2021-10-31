@@ -17,6 +17,7 @@
 		E1CB6E8C26F4AEDE0076EDD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1CB6E8A26F4AEDE0076EDD1 /* LaunchScreen.storyboard */; };
 		E1CB6E9526F4B3C20076EDD1 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CB6E9426F4B3C20076EDD1 /* Reminder.swift */; };
 		E1CB6E9726F4C1B30076EDD1 /* ReminderListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CB6E9626F4C1B30076EDD1 /* ReminderListCell.swift */; };
+		E1DB95B4272E9524003FE77A /*  ReminderDetailViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DB95B3272E9524003FE77A /*  ReminderDetailViewDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		E1CB6E8D26F4AEDE0076EDD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1CB6E9426F4B3C20076EDD1 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 		E1CB6E9626F4C1B30076EDD1 /* ReminderListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListCell.swift; sourceTree = "<group>"; };
+		E1DB95B3272E9524003FE77A /*  ReminderDetailViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " ReminderDetailViewDataSource.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				E1CB6E8D26F4AEDE0076EDD1 /* Info.plist */,
 				E1870860271D504A00F82D8D /* ReminderDetailViewController.swift */,
 				E10A3C4427202C00001D5BA4 /* ReminderListDataSource.swift */,
+				E1DB95B3272E9524003FE77A /*  ReminderDetailViewDataSource.swift */,
 			);
 			path = TodayWithUIKit;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				E1CB6E8026F4AED70076EDD1 /* AppDelegate.swift in Sources */,
 				E1870861271D504A00F82D8D /* ReminderDetailViewController.swift in Sources */,
 				E1CB6E8226F4AED70076EDD1 /* SceneDelegate.swift in Sources */,
+				E1DB95B4272E9524003FE77A /*  ReminderDetailViewDataSource.swift in Sources */,
 				E1CB6E9526F4B3C20076EDD1 /* Reminder.swift in Sources */,
 				E10A3C4527202C00001D5BA4 /* ReminderListDataSource.swift in Sources */,
 			);
