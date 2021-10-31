@@ -152,6 +152,25 @@
                                     </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EditDateCell" rowHeight="216" id="0TU-uL-tIl">
+                                <rect key="frame" x="0.0" y="318.5" width="414" height="216"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0TU-uL-tIl" id="4S8-Nw-EKp">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="216"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="dcl-Ws-4de">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="216"/>
+                                        </datePicker>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="dcl-Ws-4de" firstAttribute="leading" secondItem="4S8-Nw-EKp" secondAttribute="leading" id="NPo-fX-kGw"/>
+                                        <constraint firstAttribute="trailing" secondItem="dcl-Ws-4de" secondAttribute="trailing" id="cLO-TQ-Rlv"/>
+                                        <constraint firstAttribute="bottom" secondItem="dcl-Ws-4de" secondAttribute="bottom" id="gji-db-oEl"/>
+                                        <constraint firstItem="dcl-Ws-4de" firstAttribute="top" secondItem="4S8-Nw-EKp" secondAttribute="top" id="uF0-TS-8Vb"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                            </tableViewCell>
                         </prototypes>
                         <connections>
                             <outlet property="dataSource" destination="KOj-ME-MTp" id="6W2-0T-9yy"/>
