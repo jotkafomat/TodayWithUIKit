@@ -104,7 +104,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EditTitleCell" id="KZn-y6-sa3">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EditTitleCell" id="KZn-y6-sa3" customClass="EditTitleCell" customModule="TodayWithUIKit" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="68" width="414" height="34.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KZn-y6-sa3" id="LKz-be-KTK">
@@ -124,9 +124,34 @@
                                         <constraint firstAttribute="trailing" secondItem="p7R-sf-kp4" secondAttribute="trailing" constant="20" symbolic="YES" id="wTy-8Y-DoU"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="titleTextField" destination="p7R-sf-kp4" id="fdF-uZ-csf"/>
+                                </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EditNotesCell" rowHeight="216" id="To4-cD-ndF">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EditDateCell" rowHeight="216" id="0TU-uL-tIl" customClass="EditDateCell" customModule="TodayWithUIKit" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="102.5" width="414" height="216"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0TU-uL-tIl" id="4S8-Nw-EKp">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="216"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="dcl-Ws-4de">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="216"/>
+                                        </datePicker>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="dcl-Ws-4de" firstAttribute="leading" secondItem="4S8-Nw-EKp" secondAttribute="leading" id="NPo-fX-kGw"/>
+                                        <constraint firstAttribute="trailing" secondItem="dcl-Ws-4de" secondAttribute="trailing" id="cLO-TQ-Rlv"/>
+                                        <constraint firstAttribute="bottom" secondItem="dcl-Ws-4de" secondAttribute="bottom" id="gji-db-oEl"/>
+                                        <constraint firstItem="dcl-Ws-4de" firstAttribute="top" secondItem="4S8-Nw-EKp" secondAttribute="top" id="uF0-TS-8Vb"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="datePicker" destination="dcl-Ws-4de" id="ic6-hX-wGm"/>
+                                </connections>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EditNotesCell" rowHeight="216" id="To4-cD-ndF" customClass="EditNotesCell" customModule="TodayWithUIKit" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="318.5" width="414" height="216"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="To4-cD-ndF" id="kgz-P6-YI7">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="216"/>
@@ -151,25 +176,9 @@
                                         <constraint firstItem="ELC-06-Byj" firstAttribute="leading" secondItem="kgz-P6-YI7" secondAttribute="leadingMargin" id="saD-Hf-cM9"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                            </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EditDateCell" rowHeight="216" id="0TU-uL-tIl">
-                                <rect key="frame" x="0.0" y="318.5" width="414" height="216"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0TU-uL-tIl" id="4S8-Nw-EKp">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="216"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="dcl-Ws-4de">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="216"/>
-                                        </datePicker>
-                                    </subviews>
-                                    <constraints>
-                                        <constraint firstItem="dcl-Ws-4de" firstAttribute="leading" secondItem="4S8-Nw-EKp" secondAttribute="leading" id="NPo-fX-kGw"/>
-                                        <constraint firstAttribute="trailing" secondItem="dcl-Ws-4de" secondAttribute="trailing" id="cLO-TQ-Rlv"/>
-                                        <constraint firstAttribute="bottom" secondItem="dcl-Ws-4de" secondAttribute="bottom" id="gji-db-oEl"/>
-                                        <constraint firstItem="dcl-Ws-4de" firstAttribute="top" secondItem="4S8-Nw-EKp" secondAttribute="top" id="uF0-TS-8Vb"/>
-                                    </constraints>
-                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="notesTextView" destination="ELC-06-Byj" id="t9W-8h-DjZ"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
